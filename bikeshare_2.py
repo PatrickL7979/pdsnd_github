@@ -161,9 +161,9 @@ def user_stats(df):
 
     # Display earliest, most recent, and most common year of birth
     if 'Birth Year' in df.columns:
-        earliest_year = df['Birth Year'].min()
-        most_recent_year = df['Birth Year'].max()
-        most_common_year = df['Birth Year'].mode()[0]
+        earliest_year = int(df['Birth Year'].min())
+        most_recent_year = int(df['Birth Year'].max())
+        most_common_year = int(df['Birth Year'].mode()[0])
         print(f"\nEarliest year of birth: {earliest_year}")
         print(f"Most recent year of birth: {most_recent_year}")
         print(f"Most common year of birth: {most_common_year}")
@@ -193,7 +193,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to start over to test new filters? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
