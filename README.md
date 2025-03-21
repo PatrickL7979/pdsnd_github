@@ -7,11 +7,14 @@ This project was created on March 21, 2025.
 Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+Gives the user the option to view statistics on bikeshare in three cities based on different filters.
 
 ### Files used
-Include the files used
+bikeshare_2.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Thanks to the Udacity team that set up the original project that this is based on.
 
