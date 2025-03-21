@@ -7,7 +7,7 @@ This project was created on March 20, 2025.
 Explore US Bikeshare Data
 
 ### Description
-Gives the user the option to view statistics on bikeshare in three cities based on different filters.
+Gives the user the option to view statistics on bikeshare in three cities based on different filters for month and day.
 
 ### Files used
 bikeshare_2.py
